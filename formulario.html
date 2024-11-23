@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>É Bala</title>
+    <link rel="shortcut icon" href="/Img/logo preta.svg" type="image/svg+xml" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="formulario.css" />
+  </head>
+  <body>
+    <header>
+    <div id="logo">
+      </div>
+    </header>
+   
+    <main class="contentor">
+      <div class="formMeio">
+        <form class="form" >
+          <fieldset class="form1">
+            <legend>Formulário de Contacto</legend>
+            <div>
+              <label for="form-nome">Nome:</label>
+              <input type="text" name="form-nome" id="form-nome" required />*
+            </div>
+
+            <div>
+              <label for="form-email">Email:</label>
+              <input
+                type="email"
+                name="form-email"
+                id="form-email"
+                placeholder="meuemail@gmail.com"
+              />
+            </div>
+            <div>
+              <label for="form-num">Número</label>
+              <input type="number" name="form-num" id="form-num" />
+            </div>
+            <div>
+              <label for="form-dn">Data de Nascimento:</label>
+              <input type="date" name="form-dn" id="form-dn" />
+            </div>
+            <div>
+              <label for="form-mensagem">Mensagem:</label><br />
+              <textarea
+                name="form-mensagem"
+                id="form-mensagem"
+                cols="30"
+                rows="5"
+              ></textarea>
+            </div>
+
+            <div>
+              <input type="submit" value="Limpar" />
+              <input type="reset" value="Enviar" />
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

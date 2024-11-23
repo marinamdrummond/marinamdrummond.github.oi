@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(234, 228, 205);
+    
+}
+
+#logo {
+    background-image: url(/Img/logo\ preta.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+.contentor {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 15px;
+    padding-bottom: 10px;
+}
+
+.galeria img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.galeria div {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Criar borda de deslizamento das fotos */
+.galeria::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px; 
+}
+/* Para estilizar a borda de deslizamento das fotos */
+.galeria::-webkit-scrollbar {
+    height: 8px;
+} 
+/* Cor da borda */
+.galeria::-webkit-scrollbar-track {
+    background: #ddd; 
+}
