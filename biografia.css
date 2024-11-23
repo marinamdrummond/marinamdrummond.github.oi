@@ -1,0 +1,93 @@
+
+body {
+    background-color: rgb(234, 228, 205);
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  #logo{
+  background-image: url(/Img/logo\ preta.svg);
+  /* Para a imagem cobrir toda a área do cabeçalho */ 
+  background-size: contain; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  height: 500px; 
+  /* Imagem ocupar toda a largura da página */
+  width: 100%; 
+  text-align: center; 
+  line-height: 100px;
+  position: relative;
+  }
+
+
+  .titulo{
+  color: black;
+  font-weight: 1000;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height: 400px;
+  }
+
+.contentor{
+display: flex;
+justify-content: center;
+align-items: center; 
+width: auto;
+height: auto;
+}
+
+
+.fotogrupo{
+display: flex;
+justify-content: center;
+align-items: center; 
+width:1200px;
+height: auto;
+} 
+
+
+.descri{
+color: black;
+font-size: 30px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.integrantes{
+color: black;
+font-weight: 1000;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: italic;
+font-size: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+width:100%;
+height: 400px;
+}
+
+
+.integrante-img {
+width: 100%; 
+height: auto;
+} 
+
+.row {
+display: flex;
+/* Espaça as colunas de maneira uniforme */
+justify-content: space-between; 
+/* Alinha verticalmente as imagens */
+align-items: center; 
+}
+
+.col {
+/* Espaçamento entre as colunas */
+padding: 5px; 
+} 
+
+  

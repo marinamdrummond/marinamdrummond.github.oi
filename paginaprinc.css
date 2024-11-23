@@ -1,0 +1,108 @@
+body {
+font-family: Arial, sans-serif;
+height: 100vh;
+}
+
+/*  Para o Cabeçalho ocupar toda a tela */
+header { 
+position: relative;
+height: 100vh;
+width: 100%;
+/* Ajusta o video em todo a cabeçalho */
+overflow: hidden;
+}
+
+.video {
+position: absolute;
+width: 100%;
+height: 100%;
+/* Ajusta o video em todo o cabeçalho sem distorção. */
+object-fit: cover;
+/* Ajusta o video como uma camada de fundo */
+z-index: -1;  
+}
+
+.social-links {
+position: absolute;
+top: 50%;
+/* Distância da borda esquerda */
+left: 20px; 
+/* Centralizar verticalmente */
+transform: translateY(-50%); 
+display: flex;
+flex-direction: column;
+align-items: center;
+/* Para ficar em cima do video */
+z-index: 1; 
+}
+
+.social {
+margin: 10px 0;
+}
+
+.social img {
+width: 40px;
+height: 40px;
+transition: transform 0.3s ease;
+filter: invert(1);
+}
+
+
+.social:hover img {
+/* Aumenta os ícones ao passar o mouse */
+transform: scale(1.2); 
+}
+
+.contentor {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+color: white;
+font-size: 3rem; 
+}
+
+.logobio {
+width: 450px;
+transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.logobio:hover {
+transform: scale(1.1) !important;
+/* Efeito de sombra */
+filter: drop-shadow(0 0 10px #f0a500) !important;
+}
+
+
+nav ul {
+display: flex;
+/* Centraliza os itens */
+justify-content: center; 
+/* Remove os marcadores da lista */
+list-style: none; 
+margin: 50px;
+}
+
+
+nav ul li {
+/* Espaçamento entre os itens */
+margin: 0 50px; 
+}
+
+
+nav ul li a {
+text-decoration: none;
+color: white; 
+font-size: 2rem;
+/* espaçamento entre as letras */ 
+letter-spacing: 2px; 
+font-weight: bold; 
+/* Efeito de transição ao passar o mouse */
+transition: color 0.3s ease; 
+}
+
+nav ul li a:hover {
+/* Cor ao passar o mouse */
+color: #f0a500; 
+}
