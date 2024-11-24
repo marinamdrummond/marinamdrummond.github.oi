@@ -5,15 +5,15 @@ body {
 }
 
 #logo{
-  background-image: url(/Img/logo\ preta.svg); /* Caminho da imagem */
-  background-size: contain; /* Faz a imagem cobrir toda a área do cabeçalho */
-  background-position: center; /* Centraliza a imagem */
-  background-repeat: no-repeat; /* Evita repetição da imagem */
-  height: 500px; /* Define a altura do cabeçalho (ajuste conforme necessário) */
-  width: 100%; /* Garante que ocupe toda a largura da página */
-  text-align: center; /* Centraliza o texto horizontalmente */
+  background-image: url(/img/logopreta.svg); 
+  background-size: contain; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 300px; 
+  width: 100%; 
+  text-align: center; 
   line-height: 100px;
-  margin: 0%; /* Centraliza o texto verticalmente, ajustando à altura */
+ 
   position: relative;
   }
 
